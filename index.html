@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--favicon-->
+    <link rel="icon" type="image/png" href="/assets/images/logo.svg">
+    <!--Bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <!--Bootstrap icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--font faimly-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet"> <!--Font-awesome css-->
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Swiper CSS-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <!--Custom Stylesheet-->
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>Nft Site</title>
+</head>
+
+<body class="">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand d-flex align-items-center  column-gap-2" href="#">
+                <img src="/assets/images/Storefront.png" alt="Logo" class="img-fluid">
+                <img src="/assets/images/NFT Marketplace.png" alt="Logo" class="img-fluid mt-lg-1">
+            </a>
+
+            <!-- Toggler/collapsible Button -->
+            <button class="navbar-toggler  border-0" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                aria-controls="offcanvasExample">
+                <span class=""><img src="/assets/images/navicon.png" alt=""></span>
+            </button>
+
+            <!-- Offcanvas -->
+            <div class="offcanvas offcanvas-end d-lg-none" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header px-3">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="/assets/images/favicon.svg" alt="">
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body p-4">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 ">
+                        <li class="nav-item">
+                            <a class="nav-link active fs-18" href="/">Marketplace</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-18" href="/service">Rankings</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-18" href="/products">Connect Wallet</a>
+                        </li>
+
+                        <div class="d-flex flex-lg-row flex-column justify-content-center column-gap-4">
+                            <a
+                                class="btn btn-success fw-semibold d-flex justify-content-center gap-2 align-items-center rounded-0 mt-4">
+                                <img src="/assets/images/User.png" alt="" class="img-fluid"><span class=" fs-18">Sign
+                                    up</span>
+                            </a>
+
+                        </div>
+                    </ul>
+                </div>
+            </div>
+            <!-- Navbar links for larger screens -->
+            <div class="collapse navbar-collapse justify-content-end align-items-center p-3 " id="navbarNav">
+                <ul class="navbar-nav align-items-center gap-3 ">
+
+                    <li class="nav-item position-relative">
+                        <a class="nav-link  fs-18" href="">Rankings </a>
+                    </li>
+                    <li class="nav-item position-relative">
+                        <a class="nav-link fs-18" href="">Marketplace</a>
+                    </li>
+                    <li class="nav-item position-relative">
+                        <a class="nav-link fs-18" href="">Connect a Wallet</a>
+                    </li>
+                    <div class="">
+                        <a
+                            class="btn btn-primary fw-semibold d-flex justify-content-center gap-2 align-items-center rounded-4 ">
+                            <img src="/assets/images/User.png" alt="" class="img-fluid"><span class=" fs-18">Sign
+                                up</span>
+                        </a>
+
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- hero section -->
+    <section class="hero-section ">
+        <div class="container pt-15">
+            <div class="row justify-content-center align-items-top  column-gap-5">
+                <div class="col-12 col-lg-5">
+                    <h1 class="text-start fw-medium me-5 text-start text-white">Discover Digital Art & Collect NFTs</h1>
+                    <p class="fs-20 mt-4 text-secondary text-start me-lg-5 me-0">NFT marketplace UI created with Anima
+                        for Figma.
+                        Collect, buy and sell art from more than 20k NFT artists.
+                    </p>
+                    <div class="col-12 col-lg-4 mt-5 d-lg-none">
+                        <div class="card shadow-lg border-0 rounded-5 bg-transparent border-0">
+                            <img src="/assets/images/hero image.png" alt="" class="w-100 align-items-center">
+                            <div class="card-body">
+                                <p class="card-text fs-5 text-white fw-semibold">Space Walking</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="">
+                                        <p class="d-flex align-items-center gap-2">
+                                            <img src="/assets/images/Asset 12.png" alt="">
+                                            <span class="text-white">Animakid</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="d-flex flex-column flex-sm-row flex-wrap justify-content-center justify-content-lg-start mt-lg-5 mt-4">
+                        <a
+                            class="btn btn-primary d-flex justify-content-center align-items-center gap-3 fs-18 rounded-4 text-white fw-semibold ">
+                            <img src="/assets/images/RocketLaunch.png" alt="" class="img-fluid"><span class="">Get
+                                Started</span></a>
+
+                    </div>
+                    <div
+                        class="d-flex justify-content-center justify-content-lg-start align-items-center flex-nowrap mt-5  ">
+                        <div class=" d-flex flex-row text-left column-gap-5">
+                            <div class="">
+                                <h6 class="text-white fw-semibold fs-4">240k+</h6>
+                                <p class="text-secondary fs-5">Total sales</p>
+                            </div>
+                            <div class="mx-4">
+                                <h6 class="text-white fw-semibold fs-4">100k+</h6>
+                                <p class="text-secondary fs-5">Auctions</p>
+                            </div>
+                            <div class="">
+                                <h6 class="text-white fw-semibold fs-4">240k+</h6>
+                                <p class="text-secondary fs-5">Artists</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-5 mt-4 d-none d-lg-block">
+                    <div class="card shadow-lg border-0 rounded-5 bg-transparent border-0">
+                        <img src="/assets/images/hero image.png" alt="" class="w-100 align-items-center">
+                        <div class="card-body">
+                            <p class="card-text fs-5 text-white fw-semibold">Space Walking</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="mt-3">
+                                    <p class="d-flex align-items-center gap-2">
+                                        <img src="/assets/images/Asset 12.png" alt="">
+                                        <span class="text-white">Animakid</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- Trending section -->
+    <section class="trending-section">
+        <div class="container pt-20">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-white ">Trending Collection</h2>
+                    <p class="text-white pt-4 fs-20">Checkout our weekly updated trending collection.</p>
+                </div>
+            </div>
+            <div class="">
+                <div class="">
+                    <div class="row flex-row flex-nowrap align-items-center gap-5  ">
+
+                        <div class="col-12 col-md-6 col-lg-3 p-0">
+                            <div class="d-flex flex-column align-items-start py-5">
+                                <div class="card border-0 rounded-5 bg-transparent border-0">
+
+                                    <div class="image-wrapper">
+                                        <img src="/assets/images/Primary Photo Placeholder.png" alt=""
+                                            class="img-fluid">
+                                    </div>
+
+                                    <div class="d-flex gap-2 flex-row flex-nowrap">
+                                        <div class="col-4 mt-3">
+                                            <img src="/assets/images/Secondary Photo Placeholder.png" class="img-fluid"
+                                                alt="">
+                                        </div>
+                                        <div class="col-4 mt-3">
+                                            <img src="/assets/images/Photo Placeholder.png" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="col-4 mt-3">
+                                            <img src="/assets/images/Number of additional NFTs.png" class="img-fluid"
+                                                alt="">
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text fs-5 text-white fw-semibold">DSGN Animals</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="mt-3">
+                                                <p class="d-flex align-items-center gap-2">
+                                                    <img src="/assets/images/Asset 12.png" alt="">
+                                                    <span class="text-white">MrFox</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-3 p-0">
+                            <div class="d-flex flex-column align-items-start py-5">
+                                <div class="card border-0 rounded-5 bg-transparent border-0">
+
+                                    <div class="image-wrapper">
+                                        <img src="/assets/images/second photo.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="d-flex gap-2 flex-row flex-nowrap">
+                                        <div class="col-4 mt-3">
+                                            <img src="/assets/images/third photo.png" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="col-4 mt-3">
+                                            <img src="/assets/images/third photo.png" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="col-4 mt-3">
+                                            <img src="/assets/images/Number of additional NFTs.png" class="img-fluid"
+                                                alt="">
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text fs-5 text-white fw-semibold">DSGN Animals</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="mt-3">
+                                                <p class="d-flex align-items-center gap-2">
+                                                    <img src="/assets/images/Asset 12.png" alt="">
+                                                    <span class="text-white">MrFox</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-12 col-md-6 col-lg-3 p-0">
+                            <div class="d-flex flex-column align-items-start py-5">
+                                <div class="card border-0 rounded-5 bg-transparent border-0">
+                                    <div class="image-wrapper">
+                                        <img src="/assets/images/Primary Photo Placeholder.png" alt=""
+                                            class="img-fluid">
+                                    </div>
+                                    <div class="d-flex gap-2 flex-row flex-nowrap">
+                                        <div class="col-4 mt-3">
+                                            <img src="/assets/images/Secondary Placeholder.png" class="img-fluid"
+                                                alt="">
+                                        </div>
+                                        <div class="col-4 mt-3">
+                                            <img src="/assets/images/Secondary Placeholder.png" class="img-fluid"
+                                                alt="">
+                                        </div>
+                                        <div class="col-4 mt-3">
+                                            <img src="/assets/images/Number of additional NFTs.png" class="img-fluid"
+                                                alt="">
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text fs-5 text-white fw-semibold">DSGN Animals</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="mt-3">
+                                                <p class="d-flex align-items-center gap-2">
+                                                    <img src="/assets/images/Asset 12.png" alt="">
+                                                    <span class="text-white">MrFox</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-3 p-0">
+                            <div class="d-flex flex-column align-items-start py-5">
+                                <div class="card  border-0 rounded-5 bg-transparent border-0">
+
+                                    <div class="image-wrapper">
+                                        <img src="/assets/images/Primary Photo Placeholder.png" alt=""
+                                            class="img-fluid">
+                                    </div>
+
+                                    <div class="d-flex gap-2 flex-row flex-nowrap">
+                                        <div class="col-4 mt-3">
+                                            <img src="/assets/images/Secondary Photo Placeholder.png" class="img-fluid"
+                                                alt="">
+                                        </div>
+                                        <div class="col-4 mt-3">
+                                            <img src="/assets/images/Photo Placeholder.png" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="col-4 mt-3">
+                                            <img src="/assets/images/Number of additional NFTs.png" class="img-fluid"
+                                                alt="">
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text fs-5 text-white fw-semibold">DSGN Animals</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="mt-3">
+                                                <p class="d-flex align-items-center gap-2">
+                                                    <img src="/assets/images/Asset 12.png" alt="">
+                                                    <span class="text-white">MrFox</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- creators section -->
+    <section class="cerators-section">
+        <div class="container pt-15">
+            <div class="row justify-content-center align-items-center p-2 p-lg-5 ">
+                <div class="col-8">
+                    <h2 class="fs-1 text-white">Top creators</h2>
+                    <p class="text-white mt-3 fs-5">Checkout Top Rated Creators on the NFT Marketplace</p>
+                </div>
+                <div class="col-4 ">
+                    <div
+                        class="d-flex flex-column flex-sm-row flex-wrap justify-content-center justify-content-lg-end mt-lg-5 mt-4">
+                        <a
+                            class="btn btn-secondary d-flex justify-content-center align-items-center gap-3 fs-6 rounded-4 text-white fw-medium ">
+                            <img src="/assets/images/purpleRocket.png" alt="" class="img-fluid"><span class="">Veiw
+                                Rankings</span></a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center row-gap-3">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class=" avatar-box card  bg-dark shadow-lg p-3">
+                        <div class="">
+                            <p class="sr-no text-start badge  fs-6 bg-secondary rounded-5"><span
+                                    class="text-grey">1</span>
+                            </p>
+                        </div>
+                        <div class="image-wrapper text-center">
+                            <img src="/assets/images/Artist Avatar1.png" alt="" class="img-fluid">
+                        </div>
+                        <h4 class="text-white text-center fs-5 mt-3">keepitreal</h4>
+                        <p
+                            class=" mt-2 text-center d-flex align-items-center justify-content-center flex-nowrap gap-2 fs-14">
+                            <span class="text-grey">Total Sales:</span>34.53ETH
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class=" avatar-box card  bg-dark shadow-lg p-3">
+                        <div class="">
+                            <p class="sr-no text-start badge  fs-6 bg-secondary rounded-5"><span
+                                    class="text-grey">2</span>
+                            </p>
+                        </div>
+                        <div class="image-wrapper text-center">
+                            <img src="/assets/images/Avatar Placeholder.png" alt="" class="img-fluid">
+                        </div>
+                        <h4 class="text-white text-center fs-5 mt-3">DigiLab</h4>
+                        <p
+                            class=" mt-2 text-center d-flex align-items-center justify-content-center flex-nowrap gap-2 fs-14">
+                            <span class="text-grey">Total Sales:</span>34.53ETH
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class=" avatar-box card  bg-dark shadow-lg p-3">
+                        <div class="">
+                            <p class="sr-no text-start badge  fs-6 bg-secondary rounded-5"><span
+                                    class="text-grey">3</span>
+                            </p>
+                        </div>
+                        <div class="image-wrapper text-center">
+                            <img src="/assets/images/Avatar.png" alt="" class="img-fluid">
+                        </div>
+                        <h4 class="text-white text-center fs-5 mt-3">GravityOne</h4>
+                        <p
+                            class=" mt-2 text-center d-flex align-items-center justify-content-center flex-nowrap gap-2 fs-14">
+                            <span class="text-grey">Total Sales:</span>34.53ETH
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class=" avatar-box card  bg-dark shadow-lg p-3">
+                        <div class="">
+                            <p class="sr-no text-start badge  fs-6 bg-secondary rounded-5"><span
+                                    class="text-grey">4</span>
+                            </p>
+                        </div>
+                        <div class="image-wrapper text-center">
+                            <img src="/assets/images/Avatar (1).png" alt="" class="img-fluid">
+                        </div>
+                        <h4 class="text-white text-center fs-5 mt-3">Juanie</h4>
+                        <p
+                            class=" mt-2 text-center d-flex align-items-center justify-content-center flex-nowrap gap-2 fs-14">
+                            <span class="text-grey">Total Sales:</span>34.53ETH
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class=" avatar-box card  bg-dark shadow-lg p-3">
+                        <div class="">
+                            <p class="sr-no text-start badge  fs-6 bg-secondary rounded-5"><span
+                                    class="text-grey">5</span>
+                            </p>
+                        </div>
+                        <div class="image-wrapper text-center">
+                            <img src="/assets/images/Artist Avatar.png" alt="" class="img-fluid">
+                        </div>
+                        <h4 class="text-white text-center fs-5 mt-3">BlueWhale</h4>
+                        <p
+                            class=" mt-2 text-center d-flex align-items-center justify-content-center flex-nowrap gap-2 fs-14">
+                            <span class="text-grey">Total Sales:</span>34.53ETH
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class=" avatar-box card  bg-dark shadow-lg p-3">
+                        <div class="">
+                            <p class="sr-no text-start badge  fs-6 bg-secondary rounded-5"><span
+                                    class="text-grey">6</span>
+                            </p>
+                        </div>
+                        <div class="image-wrapper text-center">
+                            <img src="/assets/images/fox.png" alt="" class="img-fluid">
+                        </div>
+                        <h4 class="text-white text-center fs-5 mt-3">Mr Fox</h4>
+                        <p
+                            class=" mt-2 text-center d-flex align-items-center justify-content-center flex-nowrap gap-2 fs-14">
+                            <span class="text-grey">Total Sales:</span>34.53ETH
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class=" avatar-box card  bg-dark shadow-lg p-3">
+                        <div class="">
+                            <p class="sr-no text-start badge  fs-6 bg-secondary rounded-5"><span
+                                    class="text-grey">7</span>
+                            </p>
+                        </div>
+                        <div class="image-wrapper text-center">
+                            <img src="/assets/images/Artist Avatar (1).png" alt="" class="img-fluid">
+                        </div>
+                        <h4 class="text-white text-center fs-5 mt-3">Shroomie</h4>
+                        <p
+                            class=" mt-2 text-center d-flex align-items-center justify-content-center flex-nowrap gap-2 fs-14">
+                            <span class="text-grey">Total Sales:</span>34.53ETH
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class=" avatar-box card  bg-dark shadow-lg p-3">
+                        <div class="">
+                            <p class="sr-no text-start badge  fs-6 bg-secondary rounded-5"><span
+                                    class="text-grey">8</span>
+                            </p>
+                        </div>
+                        <div class="image-wrapper text-center">
+                            <img src="/assets/images/Artist Avatar (2).png" alt="" class="img-fluid">
+                        </div>
+                        <h4 class="text-white text-center fs-5 mt-3">Robotica</h4>
+                        <p
+                            class=" mt-2 text-center d-flex align-items-center justify-content-center flex-nowrap gap-2 fs-14">
+                            <span class="text-grey">Total Sales:</span>34.53ETH
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class=" avatar-box card  bg-dark shadow-lg p-3">
+                        <div class="">
+                            <p class="sr-no text-start badge  fs-6 bg-secondary rounded-5"><span
+                                    class="text-grey">9</span>
+                            </p>
+                        </div>
+                        <div class="image-wrapper text-center">
+                            <img src="/assets/images/robot.png" alt="" class="img-fluid">
+                        </div>
+                        <h4 class="text-white text-center fs-5 mt-3">RustyRobot</h4>
+                        <p
+                            class=" mt-2 text-center d-flex align-items-center justify-content-center flex-nowrap gap-2 fs-14">
+                            <span class="text-grey">Total Sales:</span>34.53ETH
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class=" avatar-box card  bg-dark shadow-lg p-3">
+                        <div class="">
+                            <p class="sr-no text-start badge  fs-6 bg-secondary rounded-5"><span
+                                    class="text-grey">10</span>
+                            </p>
+                        </div>
+                        <div class="image-wrapper text-center">
+                            <img src="/assets/images/animokid.png" alt="" class="img-fluid">
+                        </div>
+                        <h4 class="text-white text-center fs-5 mt-3">Animakid</h4>
+                        <p
+                            class=" mt-2 text-center d-flex align-items-center justify-content-center flex-nowrap gap-2 fs-14">
+                            <span class="text-grey">Total Sales:</span>34.53ETH
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class=" avatar-box card  bg-dark shadow-lg p-3">
+                        <div class="">
+                            <p class="sr-no text-start badge  fs-6 bg-secondary rounded-5"><span
+                                    class="text-grey">11</span>
+                            </p>
+                        </div>
+                        <div class="image-wrapper text-center">
+                            <img src="/assets/images/colorlady.png" alt="" class="img-fluid">
+                        </div>
+                        <h4 class="text-white text-center fs-5 mt-3">Dotgu</h4>
+                        <p
+                            class=" mt-2 text-center d-flex align-items-center justify-content-center flex-nowrap gap-2 fs-14">
+                            <span class="text-grey">Total Sales:</span>34.53ETH
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class=" avatar-box card  bg-dark shadow-lg p-3">
+                        <div class="">
+                            <p class="sr-no text-start badge  fs-6 bg-secondary rounded-5"><span
+                                    class="text-grey">12</span>
+                            </p>
+                        </div>
+                        <div class="image-wrapper text-center">
+                            <img src="/assets/images/chinese.png" alt="" class="img-fluid">
+                        </div>
+                        <h4 class="text-white text-center fs-5 mt-3">Ghiblier</h4>
+                        <p
+                            class=" mt-2 text-center d-flex align-items-center justify-content-center flex-nowrap gap-2 fs-14">
+                            <span class="text-grey">Total Sales:</span>34.53ETH
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- browse section -->
+    <section class="browse-section">
+        <div class="container pt-15 pb-5">
+            <div class="row align-items-center">
+                <div class="col-12">
+                    <h2 class="text-white fs-38">Browse Categories</h2>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-3 mt-5">
+                    <div class="browse-box card shadow-lg border-0 rounded-5 bg-transparent border-0">
+                        <img src="/assets/images/Image Placeholder.png" alt="" class="img-fluid">
+                        <div class="card-body p-4">
+                            <p class="card-text fs-5 text-white fw-semibold">Art</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Bootstrap js  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!--Swiper js -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="/assets/js/main.js"></script>
+</body>
+
+</html>

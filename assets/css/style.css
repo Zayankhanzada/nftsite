@@ -1,0 +1,173 @@
+body {
+    background: #3B3B3B;
+    font-family: "Work Sans", sans-serif;
+
+}
+
+.image-wrapper {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+/* buttons */
+nav .btn-primary {
+    padding: 12px 24px;
+}
+
+.btn-primary {
+    background-color: #A259FF;
+    border-color: #A259FF;
+    color: #ffff;
+    padding: 12px 24px;
+
+}
+
+.btn-primary:hover {
+    background-color: #9d4edd;
+    border-color: #9d4edd;
+}
+
+.btn-secondary {
+    color: #A259FF;
+    background: transparent;
+    border: 3px solid #A259FF;
+}
+
+.btn-secondary:hover {
+    background: transparent;
+    border: 3px solid #9d4edd;
+}
+
+/* colors and backgrounds */
+.text-secondary {
+    color: #ebebeb !important;
+}
+
+.text-grey {
+    color: #858584;
+}
+
+.bg-secondary {
+    background: #2B2B2B !important
+}
+
+.bg-dark {
+    background: #3B3B3B !important;
+}
+
+.text-primary {
+    color: #A259FF !important;
+}
+
+
+
+/* padding and margins */
+.pt-15 {
+    padding-top: 150px;
+}
+
+.pt-20 {
+    padding-top: 300px;
+
+}
+
+/* font sizes an weights */
+.fs-14 {
+    font-size: 15px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-38{
+font-size: 38px;
+}
+
+/* heading and paragrpahs */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    /* font-family: "Space Mono", monospace; */
+    margin: 0;
+}
+
+h1 {
+    font-size: 70px;
+    font-family: "Work Sans", sans-serif;
+}
+
+h2 {
+    font-size: 55px;
+}
+
+h3 {
+    font-size: 38px;
+}
+
+p {
+    margin: 0;
+    color: white;
+}
+
+/* width and height */
+
+.w-80 {
+    width: 100%;
+}
+
+/* navbar */
+.navbar.scrolled {
+    background: #3B3B3B;
+}
+
+.nav-link {
+    color: #ffff;
+
+}
+
+.navbar-nav .nav-link.active {
+    color: #A259FF !important;
+
+}
+
+.nav-link:hover {
+    color: #A259FF;
+
+}
+
+/* hero section */
+.hero-section .btn-primary {
+    padding: 15px 30px;
+
+}
+
+/* creators section */
+.cerators-section .btn-secondary {
+    padding: 12px 35px;
+}
+
+.cerators-section .avatar-box {
+    border-radius: 20px;
+}
+/* browse section */
+.browse-box:hover img ,
+ .browse-box img:hover{
+ transition: .6s;
+ 
+}
+ .browse-box:hover img ,
+ .browse-box img:hover{
+ filter: blur(2.5px);
+
+}
+@media screen and (max-width:575.98px) {
+    h1 {
+        font-size: 60px;
+    }
+}
