@@ -1,7 +1,14 @@
 body {
-    background: #3B3B3B;
+    background: #2b2b2b;
     font-family: "Work Sans", sans-serif;
 
+}
+a{
+    text-decoration: none;
+}
+/* font faimly */
+.font-monospace {
+    font-family: "Space Mono", monospace;
 }
 
 .image-wrapper {
@@ -33,6 +40,7 @@ nav .btn-primary {
     color: #A259FF;
     background: transparent;
     border: 3px solid #A259FF;
+    padding: 12px 35px;
 }
 
 .btn-secondary:hover {
@@ -78,12 +86,24 @@ nav .btn-primary {
     font-size: 15px;
 }
 
+.fs-17 {
+    font-size: 17px;
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
 .fs-20 {
     font-size: 20px;
 }
 
-.fs-38{
-font-size: 38px;
+.fs-22 {
+    font-size: 22px;
+}
+
+.fs-38 {
+    font-size: 38px;
 }
 
 /* heading and paragrpahs */
@@ -155,19 +175,98 @@ p {
 .cerators-section .avatar-box {
     border-radius: 20px;
 }
+
 /* browse section */
-.browse-box:hover img ,
- .browse-box img:hover{
- transition: .6s;
- 
-}
- .browse-box:hover img ,
- .browse-box img:hover{
- filter: blur(2.5px);
+.browse-box:hover img,
+.browse-box img:hover {
+    transition: .3s;
 
 }
+
+.browse-box .card-body {
+    top: 25%;
+    display: none;
+    transition: .3s;
+}
+
+.browse-box .front:hover,
+.browse-box:hover .front {
+    filter: blur(5px);
+
+}
+
+.browse-box:hover .card-body {
+    display: flex;
+    left: 30%;
+}
+
+/* bg-image section */
+.bg-image-section {
+    background: url(/assets/images/NFT\ Highlight.png) center center / cover;
+    padding-bottom: 500px;
+}
+
+/* wallet section */
+.wallet-section .card {
+    border-radius: 30px;
+}
+
+/* weely-section */
+.subscribe-box input {
+    width: 380px;
+}
+
+.subscribe-box .subscribe-btn {
+    left: 170px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 17px 30px;
+}
+
+.subscribe-box input:focus {
+    outline: 0;
+}
+
+/* footer */
+footer a:hover{
+ color: #9d4edd;
+ cursor:  pointer;
+}
+footer .social-icons {
+    cursor: pointer;
+}
+
+footer .social-icons:hover {
+    color: #A259FF;
+}
+
+footer .subscribe-box .subscribe-btn {
+    left: 200px;
+}
+
+footer .line {
+    content: "";
+    height: 0.5px;
+    background-color: #858584;
+}
+
 @media screen and (max-width:575.98px) {
     h1 {
         font-size: 60px;
+    }
+
+    .fs-38 {
+        font-size: 30px;
+
+    }
+
+    .pt-15 {
+        padding-top: 100px;
+    }
+
+    .subscribe-box input {
+        width: 100%;
     }
 }
